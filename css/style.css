@@ -271,52 +271,34 @@ height: 120px;
 
 .work-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   justify-content: center;
 }
-
-/* .work-item::after {
-  content: "ДЕСТКТОПНІ ДОДАТКИ";
-  color: var(--main-background-color);
-font-weight: 700;
-line-height: calc(16 / 14);
-letter-spacing: 3%;
-} */
 
 .work-img-div {
-position: absolute;
-width: 368px;
-height: 70px;
-
-background: var(--second-background-color);
-opacity: 80%;
+position: relative;
 }
 
-.work-img-first-div {
-  left: 216px;
-top: 1446px;
-}
 
-.work-img-second-div {
-  width: 370px;
-top: 1446px;
-}
-
-.work-img-third-div {
-    width: 370px;
-  top: 1446px;
-}
-
-.work-img-p {
+.work-img-h3 {
   display: flex;
+  align-items: center;
   justify-content: center;
+  
+  position: absolute;
+  bottom: 0;
+
   margin-top: 27px;
 
   color: var(--main-background-color);
 font-weight: 700;
 line-height: calc(16 / 14);
 letter-spacing: 3%;
+
+width: 100%;
+height: 70px;
+
+background: var(--second-background-color);
+opacity: 80%;
 }
 
 .work-item:not(:last-child) {
@@ -519,6 +501,7 @@ text-align: center;
 
 .footer-flex {
   height: 100%;
+  position: relative;
 }
 
 .footer-logo {
@@ -542,8 +525,8 @@ text-align: center;
 
 .footer-social-media-name {
 position: absolute;
-left: 516px;
-top: 2650px;
+left: 286px;
+top: 10px;
 
 color: var(--main-background-color);
 
@@ -556,8 +539,8 @@ line-height: calc(16 / 14);
   display: flex;
   gap: 10px;
 position: absolute;
-left: 516px;
-top: 2690px;
+left: 286px;
+top: 45px;
 }
 
 .footer-social-media-item {
